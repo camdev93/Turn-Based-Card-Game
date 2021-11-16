@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\camer\OneDrive\Desktop\Uni Assignments\swordCards\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>154</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'charCard' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>128</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\camer\OneDrive\Desktop\Uni Assignments\swordCards\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>155</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'wepCard' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>128</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\camer\OneDrive\Desktop\Uni Assignments\swordCards\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>64</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'charName':  the readable size is '252' bytes, but '280' bytes may be read.</DESCRIPTION>
+    <FUNCTION>Character::{ctor}</FUNCTION>
+    <DECORATED>??0Character@@QAE@XZ</DECORATED>
+    <FUNCLINE>73</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\camer\OneDrive\Desktop\Uni Assignments\swordCards\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>62</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'charName' is an Output from 'std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;::{ctor}' (declared at c:\program files (x86)\microsoft visual studio\2019\community\vc\tools\msvc\14.27.29110\include\xstring:2335)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\camer\OneDrive\Desktop\Uni Assignments\swordCards\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\camer\OneDrive\Desktop\Uni Assignments\swordCards\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>37</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\camer\OneDrive\Desktop\Uni Assignments\swordCards\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\camer\OneDrive\Desktop\Uni Assignments\swordCards\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>30</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'charName' is an Output from 'std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;::{ctor}' (declared at c:\program files (x86)\microsoft visual studio\2019\community\vc\tools\msvc\14.27.29110\include\xstring:2272)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\camer\OneDrive\Desktop\Uni Assignments\swordCards\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>30</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'charName[9]', (readable range is 0 to 8)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\camer\OneDrive\Desktop\Uni Assignments\swordCards\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>79</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'wepName':  the readable size is '252' bytes, but '280' bytes may be read.</DESCRIPTION>
+    <FUNCTION>Weapon::{ctor}</FUNCTION>
+    <DECORATED>??0Weapon@@QAE@XZ</DECORATED>
+    <FUNCLINE>82</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\camer\OneDrive\Desktop\Uni Assignments\swordCards\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'wepName' is an Output from 'std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;::{ctor}' (declared at c:\program files (x86)\microsoft visual studio\2019\community\vc\tools\msvc\14.27.29110\include\xstring:2335)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\camer\OneDrive\Desktop\Uni Assignments\swordCards\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>78</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\camer\OneDrive\Desktop\Uni Assignments\swordCards\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>78</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\camer\OneDrive\Desktop\Uni Assignments\swordCards\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>78</LINE>
+        <COLUMN>43</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\camer\OneDrive\Desktop\Uni Assignments\swordCards\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>79</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'wepName' is an Output from 'std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;::{ctor}' (declared at c:\program files (x86)\microsoft visual studio\2019\community\vc\tools\msvc\14.27.29110\include\xstring:2272)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\camer\OneDrive\Desktop\Uni Assignments\swordCards\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>79</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'wepName[9]', (readable range is 0 to 8)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>
